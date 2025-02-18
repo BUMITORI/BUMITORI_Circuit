@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by TinyCAD 3.00.04 develop
+If you wish to view this file go to https://www.tinycad.net to
+download the executable.-->
+<TinyCADSheets>
+	<TinyCAD>
+		<NAME>Sheet 1</NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE></TITLE>
+			<AUTHOR></AUTHOR>
+			<REVISION>1.0</REVISION>
+			<DOCNUMBER></DOCNUMBER>
+			<ORGANISATION></ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE></DATE>
+			<GRID spacing='50.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='0'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='3'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<STYLE id='4'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>5</THICKNESS>
+		</STYLE>
+		<STYLE id='6'>
+			<STYLE>0</STYLE>
+			<COLOR>0000FF</COLOR>
+			<THICKNESS>5</THICKNESS>
+		</STYLE>
+		<STYLE id='8'>
+			<STYLE>0</STYLE>
+			<COLOR>FF8000</COLOR>
+			<THICKNESS>5</THICKNESS>
+		</STYLE>
+		<STYLE id='10'>
+			<STYLE>0</STYLE>
+			<COLOR>C0C0C0</COLOR>
+			<THICKNESS>5</THICKNESS>
+		</STYLE>
+		<FILL id='0'>
+			<INDEX>-1</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>PassiveBuzzer</NAME>
+			<REF type='1'>U?</REF>
+			<DESCRIPTION>PassiveBuzzer</DESCRIPTION>
+			<PPP>1</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='18.00000,18.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='14.00000,6.00000' b='17.00000,9.00000' style='3' fill='0'/>
+				<RECTANGLE a='14.00000,10.00000' b='17.00000,13.00000' style='3' fill='0'/>
+				<RECTANGLE a='14.00000,14.00000' b='17.00000,17.00000' style='3' fill='0'/>
+				<TEXT pos='15.00000,9.00000' direction='3' font='3' color='000000'>1</TEXT>
+				<TEXT pos='15.00000,13.00000' direction='3' font='3' color='000000'>2</TEXT>
+				<TEXT pos='15.00000,17.00000' direction='3' font='3' color='000000'>3</TEXT>
+				<WIRE a='14.00000,7.00000' b='4.00000,7.00000'/>
+				<WIRE a='14.00000,11.00000' b='4.00000,11.00000'/>
+				<WIRE a='14.00000,15.00000' b='4.00000,15.00000'/>
+				<LABEL pos='4.00000,7.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='4.00000,11.00000' direction='3' font='3' color='208000' style='0'> VCC</LABEL>
+				<LABEL pos='4.00000,15.00000' direction='3' font='3' color='208000' style='0'> S</LABEL>
+				<RECTANGLE a='13.00000,5.00000' b='18.00000,18.00000' style='4' fill='0'/>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='2'>
+			<NAME type='0'>RaspberryPI_4B</NAME>
+			<REF type='1'>U?</REF>
+			<DESCRIPTION>RaspberryPI_4B</DESCRIPTION>
+			<PPP>1</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='43.00000,84.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='19.00000,4.00000' b='22.00000,7.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,8.00000' b='22.00000,11.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,4.00000' b='28.00000,7.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,8.00000' b='28.00000,11.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,12.00000' b='22.00000,15.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,16.00000' b='22.00000,19.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,12.00000' b='28.00000,15.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,16.00000' b='28.00000,19.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,20.00000' b='22.00000,23.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,24.00000' b='22.00000,27.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,20.00000' b='28.00000,23.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,24.00000' b='28.00000,27.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,28.00000' b='22.00000,31.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,32.00000' b='22.00000,35.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,28.00000' b='28.00000,31.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,32.00000' b='28.00000,35.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,36.00000' b='22.00000,39.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,40.00000' b='22.00000,43.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,36.00000' b='28.00000,39.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,40.00000' b='28.00000,43.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,44.00000' b='22.00000,47.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,48.00000' b='22.00000,51.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,44.00000' b='28.00000,47.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,48.00000' b='28.00000,51.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,52.00000' b='22.00000,55.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,56.00000' b='22.00000,59.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,52.00000' b='28.00000,55.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,56.00000' b='28.00000,59.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,60.00000' b='22.00000,63.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,64.00000' b='22.00000,67.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,60.00000' b='28.00000,63.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,64.00000' b='28.00000,67.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,68.00000' b='22.00000,71.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,72.00000' b='22.00000,75.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,68.00000' b='28.00000,71.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,72.00000' b='28.00000,75.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,76.00000' b='22.00000,79.00000' style='3' fill='0'/>
+				<RECTANGLE a='19.00000,80.00000' b='22.00000,83.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,76.00000' b='28.00000,79.00000' style='3' fill='0'/>
+				<RECTANGLE a='25.00000,80.00000' b='28.00000,83.00000' style='3' fill='0'/>
+				<TEXT pos='20.00000,7.00000' direction='3' font='3' color='000000'>1</TEXT>
+				<TEXT pos='26.00000,7.00000' direction='3' font='3' color='000000'>2</TEXT>
+				<TEXT pos='20.00000,11.00000' direction='3' font='3' color='000000'>3</TEXT>
+				<TEXT pos='26.00000,11.00000' direction='3' font='3' color='000000'>4</TEXT>
+				<TEXT pos='20.00000,15.00000' direction='3' font='3' color='000000'>5</TEXT>
+				<TEXT pos='26.00000,15.00000' direction='3' font='3' color='000000'>6</TEXT>
+				<TEXT pos='20.00000,19.00000' direction='3' font='3' color='000000'>7</TEXT>
+				<TEXT pos='26.00000,19.00000' direction='3' font='3' color='000000'>8</TEXT>
+				<TEXT pos='20.00000,23.00000' direction='3' font='3' color='000000'>9</TEXT>
+				<TEXT pos='25.00000,23.00000' direction='3' font='3' color='000000'>10</TEXT>
+				<TEXT pos='19.00000,27.00000' direction='3' font='3' color='000000'>11</TEXT>
+				<TEXT pos='25.00000,27.00000' direction='3' font='3' color='000000'>12</TEXT>
+				<TEXT pos='19.00000,31.00000' direction='3' font='3' color='000000'>13</TEXT>
+				<TEXT pos='25.00000,31.00000' direction='3' font='3' color='000000'>14</TEXT>
+				<TEXT pos='19.00000,35.00000' direction='3' font='3' color='000000'>15</TEXT>
+				<TEXT pos='25.00000,35.00000' direction='3' font='3' color='000000'>16</TEXT>
+				<TEXT pos='19.00000,39.00000' direction='3' font='3' color='000000'>17</TEXT>
+				<TEXT pos='25.00000,39.00000' direction='3' font='3' color='000000'>18</TEXT>
+				<TEXT pos='19.00000,43.00000' direction='3' font='3' color='000000'>19</TEXT>
+				<TEXT pos='25.00000,43.00000' direction='3' font='3' color='000000'>20</TEXT>
+				<TEXT pos='19.00000,47.00000' direction='3' font='3' color='000000'>21</TEXT>
+				<TEXT pos='25.00000,47.00000' direction='3' font='3' color='000000'>22</TEXT>
+				<TEXT pos='19.00000,51.00000' direction='3' font='3' color='000000'>23</TEXT>
+				<TEXT pos='25.00000,51.00000' direction='3' font='3' color='000000'>24</TEXT>
+				<TEXT pos='19.00000,55.00000' direction='3' font='3' color='000000'>25</TEXT>
+				<TEXT pos='25.00000,55.00000' direction='3' font='3' color='000000'>26</TEXT>
+				<TEXT pos='19.00000,59.00000' direction='3' font='3' color='000000'>27</TEXT>
+				<TEXT pos='25.00000,59.00000' direction='3' font='3' color='000000'>28</TEXT>
+				<TEXT pos='19.00000,63.00000' direction='3' font='3' color='000000'>29</TEXT>
+				<TEXT pos='25.00000,63.00000' direction='3' font='3' color='000000'>30</TEXT>
+				<TEXT pos='19.00000,67.00000' direction='3' font='3' color='000000'>31</TEXT>
+				<TEXT pos='25.00000,67.00000' direction='3' font='3' color='000000'>32</TEXT>
+				<TEXT pos='19.00000,71.00000' direction='3' font='3' color='000000'>33</TEXT>
+				<TEXT pos='25.00000,71.00000' direction='3' font='3' color='000000'>34</TEXT>
+				<TEXT pos='19.00000,75.00000' direction='3' font='3' color='000000'>35</TEXT>
+				<TEXT pos='25.00000,75.00000' direction='3' font='3' color='000000'>36</TEXT>
+				<TEXT pos='19.00000,79.00000' direction='3' font='3' color='000000'>37</TEXT>
+				<TEXT pos='25.00000,79.00000' direction='3' font='3' color='000000'>38</TEXT>
+				<TEXT pos='19.00000,83.00000' direction='3' font='3' color='000000'>39</TEXT>
+				<TEXT pos='25.00000,83.00000' direction='3' font='3' color='000000'>40</TEXT>
+				<WIRE a='19.00000,5.00000' b='4.00000,5.00000'/>
+				<WIRE a='19.00000,9.00000' b='4.00000,9.00000'/>
+				<WIRE a='19.00000,13.00000' b='4.00000,13.00000'/>
+				<WIRE a='19.00000,17.00000' b='4.00000,17.00000'/>
+				<WIRE a='19.00000,21.00000' b='4.00000,21.00000'/>
+				<WIRE a='19.00000,25.00000' b='4.00000,25.00000'/>
+				<WIRE a='19.00000,29.00000' b='4.00000,29.00000'/>
+				<WIRE a='19.00000,33.00000' b='4.00000,33.00000'/>
+				<WIRE a='19.00000,37.00000' b='4.00000,37.00000'/>
+				<WIRE a='19.00000,41.00000' b='4.00000,41.00000'/>
+				<WIRE a='19.00000,45.00000' b='4.00000,45.00000'/>
+				<WIRE a='19.00000,49.00000' b='4.00000,49.00000'/>
+				<WIRE a='19.00000,53.00000' b='4.00000,53.00000'/>
+				<WIRE a='19.00000,57.00000' b='4.00000,57.00000'/>
+				<WIRE a='19.00000,61.00000' b='4.00000,61.00000'/>
+				<WIRE a='19.00000,65.00000' b='4.00000,65.00000'/>
+				<WIRE a='19.00000,69.00000' b='4.00000,69.00000'/>
+				<WIRE a='19.00000,73.00000' b='4.00000,73.00000'/>
+				<WIRE a='19.00000,77.00000' b='4.00000,77.00000'/>
+				<WIRE a='19.00000,81.00000' b='4.00000,81.00000'/>
+				<WIRE a='43.00000,5.00000' b='28.00000,5.00000'/>
+				<WIRE a='43.00000,9.00000' b='28.00000,9.00000'/>
+				<WIRE a='43.00000,13.00000' b='28.00000,13.00000'/>
+				<WIRE a='43.00000,17.00000' b='28.00000,17.00000'/>
+				<WIRE a='43.00000,21.00000' b='28.00000,21.00000'/>
+				<WIRE a='43.00000,25.00000' b='28.00000,25.00000'/>
+				<WIRE a='43.00000,29.00000' b='28.00000,29.00000'/>
+				<WIRE a='43.00000,33.00000' b='28.00000,33.00000'/>
+				<WIRE a='43.00000,37.00000' b='28.00000,37.00000'/>
+				<WIRE a='43.00000,41.00000' b='28.00000,41.00000'/>
+				<WIRE a='43.00000,45.00000' b='28.00000,45.00000'/>
+				<WIRE a='43.00000,49.00000' b='28.00000,49.00000'/>
+				<WIRE a='43.00000,53.00000' b='28.00000,53.00000'/>
+				<WIRE a='43.00000,57.00000' b='28.00000,57.00000'/>
+				<WIRE a='43.00000,61.00000' b='28.00000,61.00000'/>
+				<WIRE a='43.00000,65.00000' b='28.00000,65.00000'/>
+				<WIRE a='43.00000,69.00000' b='28.00000,69.00000'/>
+				<WIRE a='43.00000,73.00000' b='28.00000,73.00000'/>
+				<WIRE a='43.00000,77.00000' b='28.00000,77.00000'/>
+				<WIRE a='43.00000,81.00000' b='28.00000,81.00000'/>
+				<LABEL pos='4.00000,5.00000' direction='3' font='3' color='208000' style='0'> 3.3V</LABEL>
+				<LABEL pos='4.00000,9.00000' direction='3' font='3' color='208000' style='0'> GPIO 02</LABEL>
+				<LABEL pos='4.00000,13.00000' direction='3' font='3' color='208000' style='0'> GPIO 03</LABEL>
+				<LABEL pos='4.00000,17.00000' direction='3' font='3' color='208000' style='0'> GPIO 04</LABEL>
+				<LABEL pos='4.00000,21.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='4.00000,25.00000' direction='3' font='3' color='208000' style='0'> GPIO 17</LABEL>
+				<LABEL pos='4.00000,29.00000' direction='3' font='3' color='208000' style='0'> GPIO 27</LABEL>
+				<LABEL pos='4.00000,33.00000' direction='3' font='3' color='208000' style='0'> GPIO 22</LABEL>
+				<LABEL pos='4.00000,37.00000' direction='3' font='3' color='208000' style='0'> 3.3V</LABEL>
+				<LABEL pos='4.00000,41.00000' direction='3' font='3' color='208000' style='0'> GPIO 10</LABEL>
+				<LABEL pos='4.00000,45.00000' direction='3' font='3' color='208000' style='0'> GPIO 09</LABEL>
+				<LABEL pos='4.00000,49.00000' direction='3' font='3' color='208000' style='0'> GPIO 11</LABEL>
+				<LABEL pos='4.00000,53.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='4.00000,57.00000' direction='3' font='3' color='208000' style='0'> GPIO 00</LABEL>
+				<LABEL pos='4.00000,61.00000' direction='3' font='3' color='208000' style='0'> GPIO 05</LABEL>
+				<LABEL pos='4.00000,65.00000' direction='3' font='3' color='208000' style='0'> GPIO 06</LABEL>
+				<LABEL pos='4.00000,69.00000' direction='3' font='3' color='208000' style='0'> GPIO 13</LABEL>
+				<LABEL pos='4.00000,73.00000' direction='3' font='3' color='208000' style='0'> GPIO 19</LABEL>
+				<LABEL pos='4.00000,77.00000' direction='3' font='3' color='208000' style='0'> GPIO 26</LABEL>
+				<LABEL pos='4.00000,81.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='43.00000,5.00000' direction='2' font='3' color='208000' style='0'>5V </LABEL>
+				<LABEL pos='43.00000,9.00000' direction='2' font='3' color='208000' style='0'>5V </LABEL>
+				<LABEL pos='43.00000,13.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='43.00000,17.00000' direction='2' font='3' color='208000' style='0'>GPIO 14 </LABEL>
+				<LABEL pos='43.00000,21.00000' direction='2' font='3' color='208000' style='0'>GPIO 15 </LABEL>
+				<LABEL pos='43.00000,25.00000' direction='2' font='3' color='208000' style='0'>GPIO 18 </LABEL>
+				<LABEL pos='43.00000,29.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='43.00000,33.00000' direction='2' font='3' color='208000' style='0'>GPIO 23 </LABEL>
+				<LABEL pos='43.00000,37.00000' direction='2' font='3' color='208000' style='0'>GPIO 24 </LABEL>
+				<LABEL pos='43.00000,41.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='43.00000,45.00000' direction='2' font='3' color='208000' style='0'>GPIO 25 </LABEL>
+				<LABEL pos='43.00000,49.00000' direction='2' font='3' color='208000' style='0'>GPIO 08 </LABEL>
+				<LABEL pos='43.00000,53.00000' direction='2' font='3' color='208000' style='0'>GPIO 07 </LABEL>
+				<LABEL pos='43.00000,57.00000' direction='2' font='3' color='208000' style='0'>GPIO 01 </LABEL>
+				<LABEL pos='43.00000,61.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='43.00000,65.00000' direction='2' font='3' color='208000' style='0'>GPIO 12 </LABEL>
+				<LABEL pos='43.00000,69.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='43.00000,73.00000' direction='2' font='3' color='208000' style='0'>GPIO 16 </LABEL>
+				<LABEL pos='43.00000,77.00000' direction='2' font='3' color='208000' style='0'>GPIO 20 </LABEL>
+				<LABEL pos='43.00000,81.00000' direction='2' font='3' color='208000' style='0'>GPIO 21 </LABEL>
+				<RECTANGLE a='18.00000,3.00000' b='29.00000,84.00000' style='6' fill='0'/>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='3'>
+			<NAME type='0'>RC522</NAME>
+			<REF type='1'>U?</REF>
+			<DESCRIPTION>RC522</DESCRIPTION>
+			<PPP>1</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='21.00000,36.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='17.00000,4.00000' b='20.00000,7.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,8.00000' b='20.00000,11.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,12.00000' b='20.00000,15.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,16.00000' b='20.00000,19.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,20.00000' b='20.00000,23.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,24.00000' b='20.00000,27.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,28.00000' b='20.00000,31.00000' style='3' fill='0'/>
+				<RECTANGLE a='17.00000,32.00000' b='20.00000,35.00000' style='3' fill='0'/>
+				<WIRE a='17.00000,5.00000' b='4.00000,5.00000'/>
+				<WIRE a='17.00000,9.00000' b='4.00000,9.00000'/>
+				<WIRE a='17.00000,13.00000' b='4.00000,13.00000'/>
+				<WIRE a='17.00000,17.00000' b='4.00000,17.00000'/>
+				<WIRE a='17.00000,21.00000' b='4.00000,21.00000'/>
+				<WIRE a='17.00000,25.00000' b='4.00000,25.00000'/>
+				<WIRE a='17.00000,29.00000' b='4.00000,29.00000'/>
+				<WIRE a='17.00000,33.00000' b='4.00000,33.00000'/>
+				<TEXT pos='18.00000,7.00000' direction='3' font='3' color='000000'>1</TEXT>
+				<TEXT pos='18.00000,11.00000' direction='3' font='3' color='000000'>2</TEXT>
+				<TEXT pos='18.00000,15.00000' direction='3' font='3' color='000000'>3</TEXT>
+				<TEXT pos='18.00000,19.00000' direction='3' font='3' color='000000'>4</TEXT>
+				<TEXT pos='18.00000,23.00000' direction='3' font='3' color='000000'>5</TEXT>
+				<TEXT pos='18.00000,27.00000' direction='3' font='3' color='000000'>6</TEXT>
+				<TEXT pos='18.00000,31.00000' direction='3' font='3' color='000000'>7</TEXT>
+				<TEXT pos='18.00000,35.00000' direction='3' font='3' color='000000'>8</TEXT>
+				<LABEL pos='4.00000,5.00000' direction='3' font='3' color='208000' style='0'> SDA</LABEL>
+				<LABEL pos='4.00000,9.00000' direction='3' font='3' color='208000' style='0'> SCK</LABEL>
+				<LABEL pos='4.00000,13.00000' direction='3' font='3' color='208000' style='0'> MOSI</LABEL>
+				<LABEL pos='4.00000,17.00000' direction='3' font='3' color='208000' style='0'> MISO</LABEL>
+				<LABEL pos='4.00000,21.00000' direction='3' font='3' color='208000' style='0'> IRQ</LABEL>
+				<LABEL pos='4.00000,25.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='4.00000,29.00000' direction='3' font='3' color='208000' style='0'> RST</LABEL>
+				<LABEL pos='4.00000,33.00000' direction='3' font='3' color='208000' style='0'> VCC</LABEL>
+				<RECTANGLE a='16.00000,3.00000' b='21.00000,36.00000' style='8' fill='0'/>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='4'>
+			<NAME type='0'>NUCLEO-F303K8</NAME>
+			<REF type='1'>U?</REF>
+			<DESCRIPTION>NUCLEO-F303K8</DESCRIPTION>
+			<PPP>1</PPP>
+			<GUID></GUID>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>package name for PCB layout</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='48.00000,69.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='20.00000,9.00000' b='23.00000,12.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,9.00000' b='36.00000,12.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,13.00000' b='23.00000,16.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,13.00000' b='36.00000,16.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,17.00000' b='23.00000,20.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,17.00000' b='36.00000,20.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,21.00000' b='23.00000,24.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,21.00000' b='36.00000,24.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,25.00000' b='23.00000,28.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,25.00000' b='36.00000,28.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,29.00000' b='23.00000,32.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,29.00000' b='36.00000,32.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,33.00000' b='23.00000,36.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,33.00000' b='36.00000,36.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,37.00000' b='23.00000,40.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,37.00000' b='36.00000,40.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,41.00000' b='23.00000,44.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,41.00000' b='36.00000,44.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,45.00000' b='23.00000,48.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,45.00000' b='36.00000,48.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,49.00000' b='23.00000,52.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,49.00000' b='36.00000,52.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,53.00000' b='23.00000,56.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,53.00000' b='36.00000,56.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,57.00000' b='23.00000,60.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,57.00000' b='36.00000,60.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,61.00000' b='23.00000,64.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,61.00000' b='36.00000,64.00000' style='3' fill='0'/>
+				<RECTANGLE a='20.00000,65.00000' b='23.00000,68.00000' style='3' fill='0'/>
+				<RECTANGLE a='33.00000,65.00000' b='36.00000,68.00000' style='3' fill='0'/>
+				<TEXT pos='21.00000,12.00000' direction='3' font='3' color='000000'>1</TEXT>
+				<TEXT pos='34.00000,12.00000' direction='3' font='3' color='000000'>2</TEXT>
+				<TEXT pos='21.00000,16.00000' direction='3' font='3' color='000000'>3</TEXT>
+				<TEXT pos='34.00000,16.00000' direction='3' font='3' color='000000'>4</TEXT>
+				<TEXT pos='21.00000,20.00000' direction='3' font='3' color='000000'>5</TEXT>
+				<TEXT pos='34.00000,20.00000' direction='3' font='3' color='000000'>6</TEXT>
+				<TEXT pos='21.00000,24.00000' direction='3' font='3' color='000000'>7</TEXT>
+				<TEXT pos='34.00000,24.00000' direction='3' font='3' color='000000'>8</TEXT>
+				<TEXT pos='21.00000,28.00000' direction='3' font='3' color='000000'>9</TEXT>
+				<TEXT pos='33.00000,28.00000' direction='3' font='3' color='000000'>10</TEXT>
+				<TEXT pos='20.00000,32.00000' direction='3' font='3' color='000000'>11</TEXT>
+				<TEXT pos='33.00000,32.00000' direction='3' font='3' color='000000'>12</TEXT>
+				<TEXT pos='20.00000,36.00000' direction='3' font='3' color='000000'>13</TEXT>
+				<TEXT pos='33.00000,36.00000' direction='3' font='3' color='000000'>14</TEXT>
+				<TEXT pos='20.00000,40.00000' direction='3' font='3' color='000000'>15</TEXT>
+				<TEXT pos='33.00000,40.00000' direction='3' font='3' color='000000'>16</TEXT>
+				<TEXT pos='20.00000,44.00000' direction='3' font='3' color='000000'>17</TEXT>
+				<TEXT pos='33.00000,44.00000' direction='3' font='3' color='000000'>18</TEXT>
+				<TEXT pos='20.00000,48.00000' direction='3' font='3' color='000000'>19</TEXT>
+				<TEXT pos='33.00000,48.00000' direction='3' font='3' color='000000'>20</TEXT>
+				<TEXT pos='20.00000,52.00000' direction='3' font='3' color='000000'>21</TEXT>
+				<TEXT pos='33.00000,52.00000' direction='3' font='3' color='000000'>22</TEXT>
+				<TEXT pos='20.00000,56.00000' direction='3' font='3' color='000000'>23</TEXT>
+				<TEXT pos='33.00000,56.00000' direction='3' font='3' color='000000'>24</TEXT>
+				<TEXT pos='20.00000,60.00000' direction='3' font='3' color='000000'>25</TEXT>
+				<TEXT pos='33.00000,60.00000' direction='3' font='3' color='000000'>26</TEXT>
+				<TEXT pos='20.00000,64.00000' direction='3' font='3' color='000000'>27</TEXT>
+				<TEXT pos='33.00000,64.00000' direction='3' font='3' color='000000'>28</TEXT>
+				<TEXT pos='20.00000,68.00000' direction='3' font='3' color='000000'>29</TEXT>
+				<TEXT pos='33.00000,68.00000' direction='3' font='3' color='000000'>30</TEXT>
+				<WIRE a='20.00000,10.00000' b='8.00000,10.00000'/>
+				<WIRE a='20.00000,14.00000' b='8.00000,14.00000'/>
+				<WIRE a='20.00000,18.00000' b='8.00000,18.00000'/>
+				<WIRE a='20.00000,22.00000' b='8.00000,22.00000'/>
+				<WIRE a='20.00000,26.00000' b='8.00000,26.00000'/>
+				<WIRE a='20.00000,30.00000' b='8.00000,30.00000'/>
+				<WIRE a='20.00000,34.00000' b='8.00000,34.00000'/>
+				<WIRE a='20.00000,38.00000' b='8.00000,38.00000'/>
+				<WIRE a='20.00000,42.00000' b='8.00000,42.00000'/>
+				<WIRE a='20.00000,46.00000' b='8.00000,46.00000'/>
+				<WIRE a='20.00000,50.00000' b='8.00000,50.00000'/>
+				<WIRE a='20.00000,54.00000' b='8.00000,54.00000'/>
+				<WIRE a='20.00000,58.00000' b='8.00000,58.00000'/>
+				<WIRE a='20.00000,62.00000' b='8.00000,62.00000'/>
+				<WIRE a='20.00000,66.00000' b='8.00000,66.00000'/>
+				<WIRE a='48.00000,10.00000' b='36.00000,10.00000'/>
+				<WIRE a='48.00000,14.00000' b='36.00000,14.00000'/>
+				<WIRE a='48.00000,18.00000' b='36.00000,18.00000'/>
+				<WIRE a='48.00000,22.00000' b='36.00000,22.00000'/>
+				<WIRE a='48.00000,26.00000' b='36.00000,26.00000'/>
+				<WIRE a='48.00000,30.00000' b='36.00000,30.00000'/>
+				<WIRE a='48.00000,34.00000' b='36.00000,34.00000'/>
+				<WIRE a='48.00000,38.00000' b='36.00000,38.00000'/>
+				<WIRE a='48.00000,42.00000' b='36.00000,42.00000'/>
+				<WIRE a='48.00000,46.00000' b='36.00000,46.00000'/>
+				<WIRE a='48.00000,50.00000' b='36.00000,50.00000'/>
+				<WIRE a='48.00000,54.00000' b='36.00000,54.00000'/>
+				<WIRE a='48.00000,58.00000' b='36.00000,58.00000'/>
+				<WIRE a='48.00000,62.00000' b='36.00000,62.00000'/>
+				<WIRE a='48.00000,66.00000' b='36.00000,66.00000'/>
+				<LABEL pos='8.00000,10.00000' direction='3' font='3' color='208000' style='0'> PA09</LABEL>
+				<LABEL pos='8.00000,14.00000' direction='3' font='3' color='208000' style='0'> PA10</LABEL>
+				<LABEL pos='8.00000,18.00000' direction='3' font='3' color='208000' style='0'> NRST</LABEL>
+				<LABEL pos='8.00000,22.00000' direction='3' font='3' color='208000' style='0'> GND</LABEL>
+				<LABEL pos='8.00000,26.00000' direction='3' font='3' color='208000' style='0'> PA12</LABEL>
+				<LABEL pos='8.00000,30.00000' direction='3' font='3' color='208000' style='0'> PB00</LABEL>
+				<LABEL pos='8.00000,34.00000' direction='3' font='3' color='208000' style='0'> PB07</LABEL>
+				<LABEL pos='8.00000,38.00000' direction='3' font='3' color='208000' style='0'> PB06</LABEL>
+				<LABEL pos='8.00000,42.00000' direction='3' font='3' color='208000' style='0'> PB01</LABEL>
+				<LABEL pos='8.00000,46.00000' direction='3' font='3' color='208000' style='0'> PF00</LABEL>
+				<LABEL pos='8.00000,50.00000' direction='3' font='3' color='208000' style='0'> PF01</LABEL>
+				<LABEL pos='8.00000,54.00000' direction='3' font='3' color='208000' style='0'> PA08</LABEL>
+				<LABEL pos='8.00000,58.00000' direction='3' font='3' color='208000' style='0'> PA11</LABEL>
+				<LABEL pos='8.00000,62.00000' direction='3' font='3' color='208000' style='0'> PB05</LABEL>
+				<LABEL pos='8.00000,66.00000' direction='3' font='3' color='208000' style='0'> PB04</LABEL>
+				<LABEL pos='48.00000,10.00000' direction='2' font='3' color='208000' style='0'>VIN </LABEL>
+				<LABEL pos='48.00000,14.00000' direction='2' font='3' color='208000' style='0'>GND </LABEL>
+				<LABEL pos='48.00000,18.00000' direction='2' font='3' color='208000' style='0'>NRST </LABEL>
+				<LABEL pos='48.00000,22.00000' direction='2' font='3' color='208000' style='0'>5V </LABEL>
+				<LABEL pos='48.00000,26.00000' direction='2' font='3' color='208000' style='0'>PA02 </LABEL>
+				<LABEL pos='48.00000,30.00000' direction='2' font='3' color='208000' style='0'>PA07 </LABEL>
+				<LABEL pos='48.00000,34.00000' direction='2' font='3' color='208000' style='0'>PA06 </LABEL>
+				<LABEL pos='48.00000,38.00000' direction='2' font='3' color='208000' style='0'>PA05 </LABEL>
+				<LABEL pos='48.00000,42.00000' direction='2' font='3' color='208000' style='0'>PA04 </LABEL>
+				<LABEL pos='48.00000,46.00000' direction='2' font='3' color='208000' style='0'>PA03 </LABEL>
+				<LABEL pos='48.00000,50.00000' direction='2' font='3' color='208000' style='0'>PA01 </LABEL>
+				<LABEL pos='48.00000,54.00000' direction='2' font='3' color='208000' style='0'>PA00 </LABEL>
+				<LABEL pos='48.00000,58.00000' direction='2' font='3' color='208000' style='0'>AREF </LABEL>
+				<LABEL pos='48.00000,62.00000' direction='2' font='3' color='208000' style='0'>3.3V </LABEL>
+				<LABEL pos='48.00000,66.00000' direction='2' font='3' color='208000' style='0'>PB03 </LABEL>
+				<RECTANGLE a='19.00000,8.00000' b='37.00000,69.00000' style='10' fill='0'/>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<COLOR_WIRE>FF0000</COLOR_WIRE>
+			<COLOR_BUS>0000FF</COLOR_BUS>
+			<COLOR_JUNCTION>000000</COLOR_JUNCTION>
+			<COLOR_NOCONNECT>000000</COLOR_NOCONNECT>
+			<COLOR_LABEL>208000</COLOR_LABEL>
+			<COLOR_POWER>000000</COLOR_POWER>
+			<COLOR_PIN>4040C0</COLOR_PIN>
+			<COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
+			<COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
+			<COLOR_NOTETEXT_FILL>AFFFFF</COLOR_NOTETEXT_FILL>
+			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
+			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
+		</OPTIONS>
+		<SYMBOL id='1' pos='190.00000,83.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='U?' show='0' pos='1.00000,-9.60000'/>
+			<FIELD type='0' description='Name' value='PassiveBuzzer' show='1' pos='1.00000,-12.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='1.00000,-7.20000'/>
+		</SYMBOL>
+		<SYMBOL id='2' pos='86.00000,115.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='U?' show='0' pos='1.00000,-77.60000'/>
+			<FIELD type='0' description='Name' value='RaspberryPI_4B' show='1' pos='1.00000,-80.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='1.00000,-75.20000'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='190.00000,67.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='U?' show='0' pos='1.00000,-29.60000'/>
+			<FIELD type='0' description='Name' value='RC522' show='1' pos='1.00000,-32.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='1.00000,-27.20000'/>
+		</SYMBOL>
+		<SYMBOL id='4' pos='145.00000,95.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='1' description='Ref' value='U?' show='0' pos='1.00000,-57.60000'/>
+			<FIELD type='0' description='Name' value='NUCLEO-F303K8' show='1' pos='1.00000,-60.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='package name for PCB layout' show='0' pos='1.00000,-55.20000'/>
+		</SYMBOL>
+		<LABEL pos='176.00000,72.00000' direction='2' font='0' color='208000' style='0'>GND </LABEL>
+		<LABEL pos='173.00000,56.00000' direction='2' font='0' color='208000' style='0'>GND </LABEL>
+		<LABEL pos='145.00000,40.00000' direction='3' font='0' color='208000' style='0'> GND</LABEL>
+		<LABEL pos='86.00000,44.00000' direction='3' font='0' color='208000' style='0'> GND</LABEL>
+		<LABEL pos='145.00000,72.00000' direction='3' font='0' color='208000' style='0'> GPIO 14</LABEL>
+		<LABEL pos='145.00000,52.00000' direction='3' font='0' color='208000' style='0'> GPIO 15</LABEL>
+		<LABEL pos='86.00000,52.00000' direction='3' font='0' color='208000' style='0'> PA02</LABEL>
+		<LABEL pos='86.00000,48.00000' direction='3' font='0' color='208000' style='0'> PA03</LABEL>
+		<LABEL pos='145.00000,88.00000' direction='3' font='0' color='208000' style='0'> 3.3V</LABEL>
+		<LABEL pos='176.00000,76.00000' direction='2' font='0' color='208000' style='0'>3.3V </LABEL>
+		<LABEL pos='173.00000,64.00000' direction='2' font='0' color='208000' style='0'>3.3V </LABEL>
+		<LABEL pos='173.00000,60.00000' direction='2' font='0' color='208000' style='0'>PB00 </LABEL>
+		<LABEL pos='105.00000,56.00000' direction='2' font='0' color='208000' style='0'>RST </LABEL>
+		<LABEL pos='145.00000,80.00000' direction='3' font='0' color='208000' style='0'> S</LABEL>
+		<LABEL pos='176.00000,80.00000' direction='2' font='0' color='208000' style='0'>PA00 </LABEL>
+		<LABEL pos='173.00000,48.00000' direction='2' font='0' color='208000' style='0'>PA06 </LABEL>
+		<LABEL pos='173.00000,44.00000' direction='2' font='0' color='208000' style='0'>PA07 </LABEL>
+		<LABEL pos='173.00000,36.00000' direction='2' font='0' color='208000' style='0'>PA04 </LABEL>
+		<LABEL pos='173.00000,40.00000' direction='2' font='0' color='208000' style='0'>PA05 </LABEL>
+		<LABEL pos='145.00000,68.00000' direction='3' font='0' color='208000' style='0'> SDA</LABEL>
+		<LABEL pos='145.00000,64.00000' direction='3' font='0' color='208000' style='0'> SCK</LABEL>
+		<LABEL pos='145.00000,56.00000' direction='3' font='0' color='208000' style='0'> MOSI</LABEL>
+		<LABEL pos='145.00000,60.00000' direction='3' font='0' color='208000' style='0'> MISO</LABEL>
+	</TinyCAD>
+</TinyCADSheets>
